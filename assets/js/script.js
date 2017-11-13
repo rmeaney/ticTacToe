@@ -144,7 +144,7 @@
 						if(xScore == 3 || oScore == 3){
 							//alert(currentPlayer + ' wins!');
 							continueChecking == true;
-							alert(currentPlayer + 'wins');
+							alert(currentPlayer + ' wins');
 							return console.log(currentPlayer + ' wins!');
 						}else if(checkHorizIndex == 3){
 							xScore = 0;
